@@ -1,0 +1,7 @@
+homelessness:
+  driver_type: sqlserver
+  description: "H-CLIC homelessness database managed by ADD on sql-01"
+  connection:
+    Server: "dap-sql01"
+    Driver: "{ODBC Driver 17 for SQL Server}"
+    Trusted_Connection: "yes"
